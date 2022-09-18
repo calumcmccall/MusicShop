@@ -63,4 +63,9 @@ public class TestShop {
         assertEquals("*guitar chord*", guitar.playInstrument());
     }
 
+    @Test
+    public void canGetMarkup(){
+        assertEquals(50, drum.calculateMarkup());
+    }
+
 }
